@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+* {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+div#box {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgray;
+  text-align: center;
+}
+
+div#contents {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+div#timer {
+  position: absolute;
+  right: 15px;
+  background-color: rosybrown;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+p,
+number {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+body {
+  background-color: grey;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

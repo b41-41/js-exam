@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+* {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+div#box {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgray;
+  text-align: center;
+}
+
+div#contents {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
